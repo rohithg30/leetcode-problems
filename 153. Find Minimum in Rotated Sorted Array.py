@@ -22,9 +22,9 @@ class Solution:
       
       --------------------------------------------------------------------------------
       
-      # python sort function  and return minium value
+      # python min function return minium value
       
     class Solution:
         def findMin(self, nums: List[int]) -> int:
-          nums.sorted()                                                                       # O(N) ---> TIME COMPLEXITY
-          return min(nums)                                                                    # O(1) --> SPACE COMPLEXITY
+                return min(nums)                                                       # O(N) ---> TIME COMPLEXITY
+                                                                                        # O(1) --> SPACE COMPLEXITY
