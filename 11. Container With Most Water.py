@@ -1,6 +1,7 @@
 # BRUTE FROCE 
 
-#O(N^2)
+#  O(N^2)---->T
+#  O(N)---->S
 
 class Solution:
     def maxArea(self, height: List[int]) -> int:
@@ -13,7 +14,8 @@ class Solution:
     
     
     # BEST SOLITION 
-    # O(N)
+    # O(N)---->T
+    # O(N)--->S
     
          res=0
          l=0
